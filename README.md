@@ -16,20 +16,27 @@ Este projeto foi desenvolvido por Danilo Garcia Paravani.
 1. Clone o repositório para sua máquina local:
    ```bash
    git clone https://github.com/DaniloParavani/workshop-springbot3-jpa.git
+   ```
 
-2. No terminal, navegue até o diretório do projeto:
 
-3. Certifique-se de ter o Maven instalado. Execute o seguinte comando para compilar e construir o projeto:
+1. No terminal, navegue até o diretório do projeto.
+
+
+2. Certifique-se de ter o Maven instalado. Execute o seguinte comando para compilar e construir o projeto:
    ```bash
    mvn clean install
+   ```
 
-4. Após a construção, você pode executar o aplicativo Spring Boot usando o seguinte comando:
+
+3. Após a construção, você pode executar o aplicativo Spring Boot usando o seguinte comando:
    ```bash
    mvn spring-boot:run
+    ```
+   A aplicação estará acessível em http://localhost:8090
 
-A aplicação estará acessível em http://localhost:8090
 
-5. Para acessar o console H2 para verificar os dados do banco de dados, vá para http://localhost:8090/h2-console. Username: sa | Password não é necessário.
+4. Para acessar o console H2 para verificar os dados do banco de dados, vá para http://localhost:8090/h2-console. Username: sa | Password não é necessário.
+
 
 ## Endpoints da API
 
